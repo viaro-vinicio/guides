@@ -166,7 +166,7 @@ To declare a many-to-many relationship between two models, use
 
 ```app/models/post.js
 export default DS.Model.extend({
-  tags: DS.hasMany('tag')
+  comments: DS.hasMany('tag')
 });
 ```
 
